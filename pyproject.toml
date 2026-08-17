@@ -1,0 +1,12 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+exclude = [".git", "__pycache__", ".venv", "venv", "frontend/node_modules"]
+
+[tool.ruff.lint]
+# F=pyflakes(未定义/未使用等) E9=语法级错误，先保证无真实 bug 再逐步放开风格检查
+select = ["F", "E9"]

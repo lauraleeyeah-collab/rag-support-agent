@@ -1,0 +1,32 @@
+# ── 敏感信息 ────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python ─────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── 前端 ───────────────────────────────────
+node_modules/
+dist/
+frontend/node_modules/
+
+# ── 运行数据 ───────────────────────────────
+uploads/
+*.db
+*.sqlite3
+chroma_data/
+
+# ── 工作日志 / 本地工具 ────────────────────
+.workbuddy/
+*.log
+
+# ── macOS ──────────────────────────────────
+.DS_Store

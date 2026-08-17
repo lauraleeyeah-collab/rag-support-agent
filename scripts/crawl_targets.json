@@ -1,0 +1,13 @@
+{
+  "description": "官网知识爬虫抓取目标清单：按目标官网替换为真实 URL；module 取值与 crawler_official_site.py 的 MODULE_* 常量一致（产品选型/故障排查/售后政策）。",
+  "targets": [
+    {
+      "url": "https://example.com/products",
+      "module": "产品选型"
+    },
+    {
+      "url": "https://example.com/support",
+      "module": "售后政策"
+    }
+  ]
+}
